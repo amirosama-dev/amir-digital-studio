@@ -15,7 +15,7 @@ export default function VideoModal({ video, onClose }) {
 
   return (
     <div className="modal-backdrop" onClick={onClose} role="dialog" aria-modal="true">
-      <div className="modal-frame" onClick={(e) => e.stopPropagation()}>
+      <div className={`modal-frame ${video.vertical ? 'is-vertical' : ''}`} onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
           <div>
             <span
@@ -35,7 +35,7 @@ export default function VideoModal({ video, onClose }) {
           </button>
         </div>
 
-        <div className="modal-media">
+        <div className={`modal-media ${video.vertical ? 'is-vertical' : ''}`}>
           {video.type === 'mp4' ? (
             <video src={video.src} controls autoPlay playsInline />
           ) : (

@@ -584,6 +584,24 @@ export default function App() {
                 WhatsApp
               </a>
               <a
+                href="https://www.instagram.com/amirdigital.studio/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+              >
+                <ExternalLink size={15} />
+                Instagram
+              </a>
+              <a
+                href="https://www.tiktok.com/@amirdigital.studio"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="TikTok"
+              >
+                <ExternalLink size={15} />
+                TikTok
+              </a>
+              <a
                 href="https://mostaql.com/u/Amir0sama"
                 target="_blank"
                 rel="noreferrer"
