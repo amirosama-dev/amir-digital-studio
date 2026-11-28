@@ -2,7 +2,7 @@ export const CONTENT = {
   en: {
     nav: {
       work: 'Web Work',
-      videos: '60fps Ads & Showreel',
+      videos: 'Motion Ads & Showreel',
       services: 'Services',
       process: 'Process',
       contact: 'Contact',
@@ -14,11 +14,11 @@ export const CONTENT = {
       line2: 'DIGITAL',
       line3: 'STUDIO',
       subtitle:
-        'Creative Web Developer & 60fps Motion Producer building luxury perfume & jewelry storefronts, interactive café QR menus, and high-converting Remotion brand commercials.',
+        'Creative Web Developer & Motion Producer building luxury perfume & jewelry storefronts, medical & automotive platforms, interactive café QR menus, and high-converting brand commercials.',
       ctaPrimary: 'Explore 2026 Flagships',
-      ctaSecondary: 'Watch 60fps Commercial',
+      ctaSecondary: 'Watch Brand Commercial',
       metrics: [
-        { val: '60', unit: 'FPS', lbl: 'Remotion & 3D WebGL' },
+        { val: '3D', unit: 'WEB', lbl: 'Interactive Flagships' },
         { val: '48', unit: 'HR', lbl: 'Fast Prototype Launch' },
         { val: 'EN/AR', unit: '', lbl: 'Egypt & Gulf Ready' },
       ],
@@ -26,16 +26,16 @@ export const CONTENT = {
     marquee: [
       'LUXURY E-COMMERCE STORES',
       'INTERACTIVE CAFÉ QR MENUS',
-      '60FPS REMOTION MOTION ADS',
+      'CINEMATIC MOTION ADS',
       '3D WEBGL EXPERIENCES',
-      'PERFUME & JEWELRY ATELIERS',
+      'CLINICS & AUTOMOTIVE PLATFORMS',
       'PODCAST & BRAND VIDEO',
     ],
     statement:
-      'I build digital storefronts and 60fps motion commercials that make buyers stop scrolling — blending luxury web engineering, interactive product tools, and studio sound design.',
+      'I build digital storefronts and cinematic motion commercials that make buyers stop scrolling — blending luxury web engineering, interactive product tools, and studio sound design.',
     workSection: {
       tag: '01 / 2026 FLAGSHIP WEB PROJECTS',
-      title: 'Storefronts & QR Menus Built to Sell',
+      title: 'Storefronts, Platforms & QR Menus Built to Sell',
       desc: 'Hover over any browser preview (or tap Scroll Preview on mobile) to inspect the entire experience — or click to open the live deployed site.',
       liveBtn: 'Open Live Site',
       scrollTip: 'HOVER TO EXPLORE FULL PAGE ↓',
@@ -91,19 +91,31 @@ export const CONTENT = {
         accent: '#C8FF00',
         accentRgb: '200, 255, 0',
       },
+      {
+        id: 'lumiere-dental',
+        num: '05',
+        name: 'LUMIÈRE DENTAL — Digital Smile Design Clinic',
+        category: 'Luxury Aesthetic Dentistry Platform',
+        desc: 'High-conversion clinic website crafted for Cairo & Gulf cosmetic dental centers — featuring an interactive Before/After Veneers Smile Slider, Digital Smile Design treatment & fee estimator, doctor credentials, and direct WhatsApp consultation booking in EN & AR.',
+        image: '/assets/lumiere_dental_full.webp',
+        url: 'https://lumiere-dental-cairo.vercel.app',
+        tech: ['Before/After Smile Slider', 'Treatment Estimator', 'Clinic Booking UI', 'EN / AR RTL'],
+        accent: '#38BDF8',
+        accentRgb: '56, 189, 248',
+      },
     ],
     videoSection: {
-      tag: '02 / 60FPS MOTION ADS & SHOWREEL',
-      title: 'Remotion Commercials & Studio Productions',
-      desc: 'Watch our programmatic 60fps Remotion brand ads crafted for TikTok & Reels with custom sound design, alongside our agency showreel and English YouTube podcast.',
+      tag: '02 / COMMERCIAL MOTION ADS & SHOWREEL',
+      title: 'Cinematic Brand Commercials & Studio Productions',
+      desc: 'Watch our high-impact vertical brand commercials crafted for TikTok & Reels with custom motion choreography and sound design, alongside our agency showreel and English YouTube podcast.',
       playBtn: 'Play in Cinema Mode',
     },
     videos: [
       {
         id: 'apex-detailing-ad',
-        badge: 'REMOTION 4 • 60FPS AUTO AD',
-        title: 'APEX STUDIO — 60fps PPF & Detailing Commercial',
-        desc: 'High-impact 60fps automotive commercial built in Remotion 4 — featuring a live neon PPF shield laser wipe, 9H hydrophobic telemetry bars, SUV/Stealth PPF price ticker, and deep automotive cinema audio.',
+        badge: 'AUTOMOTIVE STUDIO AD • 9:16',
+        title: 'APEX STUDIO — PPF & Detailing Commercial',
+        desc: 'High-impact automotive commercial featuring a live neon PPF shield laser wipe, 9H hydrophobic telemetry bars, SUV/Stealth PPF price ticker, and deep automotive cinema sound design.',
         thumb: '/assets/apex_ad_thumb.webp',
         type: 'mp4',
         src: '/assets/apex_detailing_60fps.mp4',
@@ -113,9 +125,9 @@ export const CONTENT = {
       },
       {
         id: 'noir-oud-ad',
-        badge: 'REMOTION 4 • 60FPS COMMERCIAL',
-        title: 'NOIR OUD — 60fps Luxury Perfume Commercial',
-        desc: 'Vertical 9:16 motion graphics commercial engineered in React & Remotion at 60fps — featuring rising golden mist, live animated Scent Pyramid bars, 3-bottle showcase, and bespoke dark-luxury sound design.',
+        badge: 'LUXURY FRAGRANCE AD • 9:16',
+        title: 'NOIR OUD — Luxury Perfume Commercial',
+        desc: 'Vertical 9:16 motion graphics commercial crafted for luxury fragrance houses — featuring rising golden mist, live animated Scent Pyramid bars, 3-bottle showcase, and bespoke dark-luxury sound design.',
         thumb: '/assets/noir_ad_thumb.webp',
         type: 'mp4',
         src: '/assets/noir_oud_60fps.mp4',
@@ -125,8 +137,8 @@ export const CONTENT = {
       },
       {
         id: 'aura-jewelry-ad',
-        badge: 'REMOTION 4 • 60FPS JEWELRY AD',
-        title: 'AURA Atelier — 60fps 18K Laser Engraving Ad',
+        badge: 'JEWELRY ATELIER AD • 9:16',
+        title: 'AURA Atelier — 18K Laser Engraving Commercial',
         desc: 'Scroll-stopping luxury jewelry commercial featuring a glowing golden laser beam carving customer initials live onto brushed 18k gold with synced crystal-etch sound design and gift-box upsell.',
         thumb: '/assets/aura_ad_thumb.webp',
         type: 'mp4',
@@ -137,9 +149,9 @@ export const CONTENT = {
       },
       {
         id: 'bouchee-qr-ad',
-        badge: 'REMOTION 4 • 60FPS CAFÉ AD',
-        title: 'Bouchée — Interactive Café QR Motion Ad',
-        desc: '60fps commercial produced for Cairo specialty cafés — showcasing a 3D floating iPhone customizer adding Oat Milk & Large cup with live price ticks, neon QR laser scan, and custom Parisian lo-fi audio.',
+        badge: 'SPECIALTY CAFÉ AD • 9:16',
+        title: 'Bouchée — Interactive Café QR Commercial',
+        desc: 'Cinematic commercial produced for Cairo specialty cafés — showcasing a 3D floating iPhone customizer adding Oat Milk & Large cup with live price ticks, neon QR laser scan, and custom Parisian lo-fi audio.',
         thumb: '/assets/bouchee_ad_thumb.webp',
         type: 'mp4',
         src: '/assets/bouchee_qr_60fps.mp4',
@@ -175,13 +187,13 @@ export const CONTENT = {
     servicesSection: {
       tag: '03 / CAPABILITIES',
       title: 'Everything Your Brand Needs to Sell More',
-      desc: 'One creative studio building both your high-converting website and the 60fps motion commercials that drive traffic to it.',
+      desc: 'One creative studio building both your high-converting website and the cinematic motion commercials that drive traffic to it.',
     },
     services: [
       {
         icon: 'cube',
-        title: 'Luxury Brand Stores & Interactive Tools',
-        desc: 'Bespoke storefronts for perfume houses, jewelry ateliers, and fashion labels — packed with Scent Finders, Live Engraving, and instant WhatsApp/COD checkout.',
+        title: 'Luxury Stores, Clinics & Booking Platforms',
+        desc: 'Bespoke websites for perfume houses, jewelry ateliers, cosmetic clinics, and automotive studios — packed with Scent Finders, Before/After sliders, and instant WhatsApp booking.',
       },
       {
         icon: 'code',
@@ -190,14 +202,14 @@ export const CONTENT = {
       },
       {
         icon: 'film',
-        title: '60fps Remotion Motion Ads & Podcasts',
-        desc: 'Scroll-stopping vertical commercials engineered in React & Remotion at 60fps with synced SFX, plus YouTube podcasts and launch showreels.',
+        title: 'Cinematic Brand Motion Ads & Podcasts',
+        desc: 'Scroll-stopping vertical commercials engineered with studio motion choreography, color grading, and synced SFX, plus YouTube podcasts and launch showreels.',
       },
     ],
     processSection: {
       tag: '04 / HOW WE WORK',
       title: 'From Brief to Launch — Zero Friction',
-      desc: 'A clear, fast workflow built for ambitious cafés, online brands, and founders who want agency quality without agency delays.',
+      desc: 'A clear, fast workflow built for ambitious cafés, clinics, online brands, and founders who want agency quality without agency delays.',
     },
     processSteps: [
       {
@@ -212,8 +224,8 @@ export const CONTENT = {
       },
       {
         num: '03',
-        title: 'Engineering & 60fps Motion',
-        desc: 'Clean code, custom interactive features, and optional 60fps Remotion launch ads — tested smoothly across mobile & desktop.',
+        title: 'Engineering & Motion Production',
+        desc: 'Clean code, custom interactive features, and optional cinematic launch commercials — tested smoothly across mobile & desktop.',
       },
       {
         num: '04',
@@ -224,7 +236,7 @@ export const CONTENT = {
     cta: {
       tag: 'READY TO STAND OUT?',
       title: 'Let’s Build Something Unforgettable.',
-      sub: 'Want a luxury storefront, an interactive café QR menu, or a 60fps Remotion brand ad? Pick what you need and message me directly.',
+      sub: 'Want a luxury storefront, a clinic or detailing platform, an interactive café QR menu, or a cinematic brand ad? Pick what you need and message me directly.',
       mostaqlBtn: 'Hire Me on Mostaql',
       youtubeBtn: 'YouTube Channel',
     },
@@ -237,23 +249,23 @@ export const CONTENT = {
   ar: {
     nav: {
       work: 'المواقع والمتاجر',
-      videos: 'إعلانات 60fps',
+      videos: 'إعلانات الموشن',
       services: 'الخدمات',
       process: 'خطوات العمل',
       contact: 'تواصل معي',
       cta: 'ابدأ مشروعك',
     },
     hero: {
-      status: 'متاح لبراندات وكافيهات مختارة — القاهرة / الخليج / عالمياً',
+      status: 'متاح لبراندات وعيادات وكافيهات مختارة — القاهرة / الخليج / عالمياً',
       line1: 'AMIR',
       line2: 'استوديو',
       line3: 'رقمي 3D',
       subtitle:
-        'مطور مواقع إبداعية ومنتج إعلانات موشن جرافيك 60fps — أبني متاجر فاخرة للعطور والمجوهرات، مينيو QR تفاعلي للكافيهات، وإعلانات Remotion سينمائية تجيب مبيعات.',
+        'مطور مواقع إبداعية ومنتج إعلانات موشن جرافيك سينمائية — أبني متاجر فاخرة للعطور والمجوهرات، منصات عيادات ومراكز سيارات، مينيو QR تفاعلي للكافيهات، وإعلانات تجارية ترفع المبيعات.',
       ctaPrimary: 'استكشف أعمال 2026',
-      ctaSecondary: 'شاهد إعلان 60fps',
+      ctaSecondary: 'شاهد إعلان تجاري',
       metrics: [
-        { val: '60', unit: 'FPS', lbl: 'إعلانات Remotion و3D' },
+        { val: '3D', unit: 'WEB', lbl: 'مواقع وتجارب تفاعلية' },
         { val: '48', unit: 'ساعة', lbl: 'سرعة إطلاق وتنفيذ' },
         { val: 'AR/EN', unit: '', lbl: 'لمصر والخليج والعالم' },
       ],
@@ -261,16 +273,16 @@ export const CONTENT = {
     marquee: [
       'متاجر عطور ومجوهرات فاخرة',
       'مينيو QR تفاعلي للكافيهات',
-      'إعلانات ريموشن 60FPS',
+      'إعلانات موشن جرافيك سينمائية',
       'مواقع ثلاثية الأبعاد 3D',
-      'تجربة مستخدم ترفع المبيعات',
+      'منصات عيادات ومراكز سيارات',
       'بودكاست وإنتاج مرئي',
     ],
     statement:
-      'أبني متاجر رقمية فاخرة وإعلانات موشن جرافيك 60fps تخلي العميل يقف يشتري من أول ثانية — بدمج هندسة الويب الحديثة مع الحركة السينمائية.',
+      'أبني متاجر ومنصات رقمية فاخرة وإعلانات موشن جرافيك سينمائية تخلي العميل يقف يشتري من أول ثانية — بدمج هندسة الويب الحديثة مع الإخراج البصري والهندسة الصوتية.',
     workSection: {
       tag: '01 / أحدث أعمال 2026 الحية',
-      title: 'متاجر ومينيو QR مصممة عشان تبيع',
+      title: 'متاجر ومنصات ومينيو QR مصممة عشان تبيع',
       desc: 'قف بالماوس فوق أي نافذة (أو اضغط معاينة الصفحة على الموبايل) لاستعراض الموقع بالكامل — أو اضغط لفتح النسخة الحية.',
       liveBtn: 'افتح الموقع لايف',
       scrollTip: 'قف بالماوس لمشاهدة الموقع بالكامل ↓',
@@ -326,19 +338,31 @@ export const CONTENT = {
         accent: '#C8FF00',
         accentRgb: '200, 255, 0',
       },
+      {
+        id: 'lumiere-dental',
+        num: '05',
+        name: 'LUMIÈRE DENTAL — موقع عيادة تجميل أسنان',
+        category: 'منصة حجز وتصميم ابتسامة لعيادات الأسنان',
+        desc: 'موقع طبي فاخر لعيادات تجميل وزراعة الأسنان في مصر والخليج — يضم مقارنة Before/After تفاعلية لنتائج الفينيرز وتصميم الابتسامة الرقمي (DSD)، حاسبة خطط العلاج، وحجز استشارة مباشر على واتساب بالعربي والإنجليزي.',
+        image: '/assets/lumiere_dental_full.webp',
+        url: 'https://lumiere-dental-cairo.vercel.app',
+        tech: ['مقارنة قبل/بعد للابتسامة', 'حاسبة خطط العلاج', 'حجز واتساب فوري', 'عربي / إنجليزي RTL'],
+        accent: '#38BDF8',
+        accentRgb: '56, 189, 248',
+      },
     ],
     videoSection: {
-      tag: '02 / إعلانات 60FPS والإنتاج المرئي',
-      title: 'إعلانات موشن جرافيك Remotion وشوريل الاستوديو',
-      desc: 'شاهد إعلانات الـ 60fps المبرمجة بـ React وRemotion للبراندات والكافيهات ومراكز السيارات بمؤثرات صوتية مخصصة، بجانب شوريل الاستوديو وبودكاست اليوتيوب.',
+      tag: '02 / إعلانات الموشن والإنتاج المرئي',
+      title: 'إعلانات موشن جرافيك سينمائية وشوريل الاستوديو',
+      desc: 'شاهد الإعلانات التجارية الرأسية المصممة للبراندات والكافيهات ومراكز السيارات بتحريك بصري فائق السلاسة وهندسة صوتية مخصصة، بجانب شوريل الاستوديو وبودكاست اليوتيوب.',
       playBtn: 'تشغيل في وضع السينما',
     },
     videos: [
       {
         id: 'apex-detailing-ad',
-        badge: 'إعلان سيارات PPF • 60FPS',
-        title: 'APEX STUDIO — إعلان مركز PPF وحماية سيارات 60fps',
-        desc: 'إعلان سيارات حماسي 60fps بـ Remotion 4 — يستعرض مسح درع حماية الـ PPF بالليزر، مؤشرات السيراميك 9H، حاسبة أسعار SUV/Stealth لايف وموسيقى سينمائية عميقة.',
+        badge: 'إعلان سيارات PPF • 9:16',
+        title: 'APEX STUDIO — إعلان مركز PPF وحماية سيارات',
+        desc: 'إعلان سيارات سينمائي يستعرض مسح درع حماية الـ PPF بالليزر، مؤشرات السيراميك 9H، حاسبة أسعار SUV/Stealth لايف وموسيقى ومؤثرات صوتية عميقة.',
         thumb: '/assets/apex_ad_thumb.webp',
         type: 'mp4',
         src: '/assets/apex_detailing_60fps.mp4',
@@ -348,9 +372,9 @@ export const CONTENT = {
       },
       {
         id: 'noir-oud-ad',
-        badge: 'إعلان ريموشن • 60FPS',
-        title: 'NOIR OUD — إعلان عطور فاخر 60fps',
-        desc: 'إعلان ريلز وتيك توك رأسي بدقة 1080×1920 وسلاسة 60 إطار/ثانية — يضم جزيئات ذهب متحركة، هرم عطري يتعبأ لايف، عرض 3 زجاجات وتبديل الأحجام مع موسيقى ومؤثرات صوتية مخصصة.',
+        badge: 'إعلان عطور فاخر • 9:16',
+        title: 'NOIR OUD — إعلان عطور فاخر للريلز',
+        desc: 'إعلان ريلز وتيك توك رأسي بدقة Full HD لبراندات العطور الفاخرة — يضم جزيئات ذهب متحركة، هرم عطري يتعبأ لايف، عرض 3 زجاجات وتبديل الأحجام مع موسيقى وهندسة صوتية مخصصة.',
         thumb: '/assets/noir_ad_thumb.webp',
         type: 'mp4',
         src: '/assets/noir_oud_60fps.mp4',
@@ -360,8 +384,8 @@ export const CONTENT = {
       },
       {
         id: 'aura-jewelry-ad',
-        badge: 'إعلان مجوهرات • 60FPS',
-        title: 'AURA Atelier — إعلان مجوهرات وحفر ليزر 60fps',
+        badge: 'إعلان مجوهرات • 9:16',
+        title: 'AURA Atelier — إعلان مجوهرات وحفر ليزر',
         desc: 'إعلان فاخر لبراندات المجوهرات يبرز شعاع ليزر يحفر الاسم مباشرة على الذهب عيار 18K مع مؤثرات صوتية متزامنة وعرض باقة الهدايا.',
         thumb: '/assets/aura_ad_thumb.webp',
         type: 'mp4',
@@ -372,8 +396,8 @@ export const CONTENT = {
       },
       {
         id: 'bouchee-qr-ad',
-        badge: 'إعلان كافيه QR • 60FPS',
-        title: 'Bouchée — إعلان مينيو QR التفاعلي 60fps',
+        badge: 'إعلان كافيه QR • 9:16',
+        title: 'Bouchée — إعلان مينيو QR التفاعلي',
         desc: 'إعلان دعائي مخصص لكافيهات القاهرة المختصة — يستعرض آيفون ثلاثي الأبعاد يخصّص مشروب الماتشا ويحدث السعر لايف مع مسح ليزر لكارت الـ QR وموسيقى باريسية متزامنة.',
         thumb: '/assets/bouchee_ad_thumb.webp',
         type: 'mp4',
@@ -410,13 +434,13 @@ export const CONTENT = {
     servicesSection: {
       tag: '03 / الخدمات',
       title: 'كل اللي براندك محتاجه عشان يتميز ويبيع',
-      desc: 'شريك إبداعي واحد يبني لك المتجر أو الموقع الفخم، ويصمملك الإعلانات الـ 60fps اللي تجيبلك عملاء عليه.',
+      desc: 'شريك إبداعي واحد يبني لك المتجر أو الموقع الفخم، ويصمملك الإعلانات السينمائية اللي تجيبلك عملاء عليه.',
     },
     services: [
       {
         icon: 'cube',
-        title: 'متاجر فاخرة للعطور والمجوهرات والبراندات',
-        desc: 'متاجر إلكترونية سريعة بأدوات تفاعلية ترفع المبيعات مثل اختبار اختيار العطر ومعاينة الحفر بالليزر والطلب المباشر على واتساب.',
+        title: 'متاجر فاخرة ومنصات عيادات ومراكز سيارات',
+        desc: 'مواقع ومتاجر سريعة بأدوات تفاعلية ترفع المبيعات مثل اختبار العطر، معاينة الحفر بالليزر، مقارنة قبل/بعد، وحاسبة الأسعار والحجز على واتساب.',
       },
       {
         icon: 'code',
@@ -425,20 +449,20 @@ export const CONTENT = {
       },
       {
         icon: 'film',
-        title: 'إعلانات موشن جرافيك 60fps وبودكاست',
-        desc: 'إعلانات ريلز وتيك توك مبهرة بـ React وRemotion بسلاسة 60fps ومؤثرات صوتية مخصصة، بالإضافة لمونتاج اليوتيوب والبودكاست.',
+        title: 'إعلانات موشن جرافيك سينمائية وبودكاست',
+        desc: 'إعلانات ريلز وتيك توك مبهرة بتحريك ثلاثي الأبعاد وتدرج لوني فاخر وهندسة صوتية مخصصة، بالإضافة لمونتاج اليوتيوب والبودكاست.',
       },
     ],
     processSection: {
       tag: '04 / خطوات العمل',
       title: 'من الفكرة للإطلاق — بسرعة ووضوح تام',
-      desc: 'نظام شغل عملي ومباشر لأصحاب الكافيهات والبراندات اللي عايزين جودة وكالات عالمية بدون تعقيد أو تأخير.',
+      desc: 'نظام شغل عملي ومباشر لأصحاب الكافيهات والعيادات والبراندات اللي عايزين جودة وكالات عالمية بدون تعقيد أو تأخير.',
     },
     processSteps: [
       {
         num: '01',
         title: 'فهم البراند والهدف',
-        desc: 'نتكلم سريعاً على واتساب نحدد هوية براندك، منتجاتك أو المينيو، والهدف اللي عايز تحققه.',
+        desc: 'نتكلم سريعاً على واتساب نحدد هوية براندك، منتجاتك أو خدماتك، والهدف اللي عايز تحققه.',
       },
       {
         num: '02',
@@ -447,8 +471,8 @@ export const CONTENT = {
       },
       {
         num: '03',
-        title: 'البرمجة وإعلان الـ 60fps',
-        desc: 'تطوير سريع ونظيف للمتجر أو المينيو مع إمكانية إنتاج إعلان Remotion 60fps يطلق حملتك بقوة.',
+        title: 'البرمجة والإخراج الدعائي',
+        desc: 'تطوير سريع ونظيف للمتجر أو الموقع مع إمكانية إنتاج إعلان موشن سينمائي يطلق حملتك بقوة.',
       },
       {
         num: '04',
@@ -459,7 +483,7 @@ export const CONTENT = {
     cta: {
       tag: 'جاهز تنقل براندك لمستوى تاني؟',
       title: 'خلّينا نبني حاجة مش هتتنسي.',
-      sub: 'سواء محتاج متجر عطور أو مجوهرات، مينيو QR لكافيهك، أو إعلان موشن جرافيك 60fps — اختار اللي محتاجه وابعتلي فوراً على واتساب.',
+      sub: 'سواء محتاج متجر عطور أو مجوهرات، موقع عيادة أو مركز سيارات، مينيو QR لكافيهك، أو إعلان موشن سينمائي — اختار اللي محتاجه وابعتلي فوراً على واتساب.',
       mostaqlBtn: 'وظّفني عبر مستقل',
       youtubeBtn: 'قناة اليوتيوب',
     },
